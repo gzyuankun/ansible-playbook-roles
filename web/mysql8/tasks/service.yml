@@ -1,0 +1,3 @@
+---
+- name: service
+  shell: chkconfig --add mysqld;/etc/init.d/mysqld start

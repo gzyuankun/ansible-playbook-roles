@@ -1,0 +1,6 @@
+---
+# tasks file for nginx
+- include: install_nginx.yml
+- include: config.yml
+- include: index.yml
+- include: service.yml

@@ -1,0 +1,4 @@
+---
+- name: copy mysql tar host
+  # mysql_tar 为mysql二进制的压缩包名称
+  unarchive: src={{ mysql_tar }} dest=/usr/local/ owner=root group=root

@@ -1,0 +1,8 @@
+---
+- hosts: centos8
+  remote_user: root
+  roles:
+   # - httpd
+   # - nginx
+   # - mysql8
+    - redis

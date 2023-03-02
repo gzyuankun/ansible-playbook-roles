@@ -1,0 +1,6 @@
+---
+- name: install package
+  yum: name={{ item }} state=latest
+  loop:
+    - libaio
+    - numactl-libs

@@ -1,0 +1,6 @@
+---
+# vars file for httpd
+httpd_group: apache
+httpd_gid: 88
+httpd_user: apache
+httpd_uid: 88

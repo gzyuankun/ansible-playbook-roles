@@ -1,0 +1,5 @@
+---
+- name: create datadir dir
+  file: path=/data/mysql state=directory owner=mysql group=mysql
+- name: init mysql data
+  shell: /usr/local/mysql/bin/mysqld --initialize-insecure --user=mysql --datadir=/data/mysql

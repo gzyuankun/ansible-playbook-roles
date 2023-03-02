@@ -1,0 +1,2 @@
+- name: add httpd user
+  user: name={{ httpd_user }} system=yes shell=/sbin/nologin home=/var/www uid={{ httpd_uid }} group={{ httpd_group }}

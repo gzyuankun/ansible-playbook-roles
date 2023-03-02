@@ -1,0 +1,3 @@
+---
+- name: add user
+  user: name={{ user }} uid={{ user_uid }} shell=/sbin/nologin group={{ group }} create_home=no system=yes home=/data/mysql

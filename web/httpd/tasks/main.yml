@@ -1,0 +1,8 @@
+---
+# tasks file for htppd
+- include: group.yml
+- include: user.yml
+- include: install_httpd.yml
+- include: config.yml
+- include: index.yml
+- include: service.yml

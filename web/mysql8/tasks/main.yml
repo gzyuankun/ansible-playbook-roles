@@ -1,0 +1,14 @@
+---
+# tasks file for mysql8
+- include: install_package.yml
+- include: group.yml
+- include: user.yml
+- include: unarchive.yml
+- include: linkfile.yml
+- include: linkfile.yml
+- include: init_mysql_data.yml
+- include: config.yml
+- include: script.yml
+- include: path.yml
+- include: service.yml
+- include: secure.yml

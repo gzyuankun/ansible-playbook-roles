@@ -1,0 +1,9 @@
+---
+# vars file for mysql8
+group: mysql
+group_gid: 306
+user: mysql
+user_uid: 306
+mysql_tar: mysql-8.0.28-linux-glibc2.12-x86_64.tar.xz
+mysql_version: 8.0.28
+mysql_root_password: 123456
